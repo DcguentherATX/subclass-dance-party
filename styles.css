@@ -25,3 +25,8 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.blue-dancer {
+  border:15px solid blue;
+  border-radius:50%;
+  position:absolute;
+}
