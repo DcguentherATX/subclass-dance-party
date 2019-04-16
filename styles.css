@@ -41,3 +41,13 @@ body, a:link, a:visited, a:active{
   height: 15%;
   width: 10%
 }
+.champagne {
+  content: url(assets/images/cart.png);
+  position: absolute;
+  height: 12%;
+  width: 5%;
+}
+
+a:hover {
+  color: black;
+}

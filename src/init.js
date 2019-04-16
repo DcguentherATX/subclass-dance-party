@@ -31,6 +31,8 @@ $(document).ready(function() {
     );
     $('body').append(dancer.$node);
 
+
+    
     // var blueDancerMakerFunctionName = $(this).data('blueDancer-maker-function-name');
 
     // // get the maker function for the kind of dancer we're supposed to make
