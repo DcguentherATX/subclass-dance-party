@@ -1,6 +1,7 @@
 var BlueDancer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, ...arguments);
-  this.$node =  $('<span class="blue-dancer"></span>');
+  //this.$node =  $('<span class="dancer blue"></span>');
+  this.$node.addClass('blue');
 };
 
 BlueDancer.prototype = Object.create(Dancer.prototype);
@@ -12,5 +13,5 @@ BlueDancer.prototype.step = function() {
     // toggle() is a jQuery method to show/hide the <span> tag.
     // See http://api.jquery.com/category/effects/ for this and
     // other effects you can use on a jQuery-wrapped html tag.
-    this.$node.toggle();
+    this.$node.fadeToggle(2000);
 };
