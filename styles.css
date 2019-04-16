@@ -51,3 +51,16 @@ body, a:link, a:visited, a:active{
 a:hover {
   color: black;
 }
+.surprise {
+  content: url(assets/images/trump.gif);
+  position: absolute;s
+  height: 12%;
+  width: 6%;
+}
+
+.gangnam {
+  content: url(assets/images/gangnam.gif);
+  position: absolute;
+  height: 12%;
+  width: 6%;
+}
